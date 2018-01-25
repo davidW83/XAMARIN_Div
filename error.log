@@ -1,0 +1,446 @@
+01-25 11:46:32.464 D/Mono    (13626): Assembly Ref addref FormsViewGroup[0xa62a8880] -> Java.Interop[0xa56442c0]: 3
+01-25 11:46:32.465 D/Mono    (13626): Assembly Ref addref Xamarin.Forms.Platform.Android[0xa5643c60] -> Xamarin.Android.Support.Core.UI[0xa62a8d60]: 3
+01-25 11:46:32.465 D/Mono    (13626): Assembly Ref addref Xamarin.Forms.Platform.Android[0xa5643c60] -> Xamarin.Android.Support.Design[0xa62a8ee0]: 2
+01-25 11:46:32.467 D/Mono    (13626): Assembly Ref addref Xamarin.Android.Support.v7.AppCompat[0xa5643480] -> Xamarin.Android.Support.Compat[0xa62a8be0]: 3
+01-25 11:46:32.469 D/Mono    (13626): Assembly Ref addref Xamarin.Forms.Platform.Android[0xa5643c60] -> Xamarin.Android.Support.v7.CardView[0xa56436c0]: 2
+01-25 11:46:32.496 D/Mono    (13626): Assembly Ref addref Xamarin.Forms.Platform[0xa5643d80] -> Xamarin.Forms.Core[0xa5643b40]: 6
+01-25 11:46:32.574 D/Mono    (13626): Assembly Ref addref Xamarin.Android.Support.Design[0xa62a8ee0] -> Xamarin.Android.Support.Core.UI[0xa62a8d60]: 4
+01-25 11:46:32.579 D/Mono    (13626): Assembly Ref addref Xamarin.Android.Support.Core.UI[0xa62a8d60] -> Xamarin.Android.Support.Compat[0xa62a8be0]: 4
+01-25 11:46:32.600 D/Mono    (13626): Assembly Ref addref Xamarin.Android.Support.Fragment[0xa5643060] -> Xamarin.Android.Support.Core.UI[0xa62a8d60]: 5
+01-25 11:46:32.633 D/Mono    (13626): DllImport searching in: '__Internal' ('(null)').
+01-25 11:46:32.633 D/Mono    (13626): Searching for 'java_interop_jnienv_call_nonvirtual_object_method'.
+01-25 11:46:32.633 D/Mono    (13626): Probing 'java_interop_jnienv_call_nonvirtual_object_method'.
+01-25 11:46:32.633 D/Mono    (13626): Found as 'java_interop_jnienv_call_nonvirtual_object_method'.
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504] JNI DETECTED ERROR IN APPLICATION: can't make objects of type android.support.v4.app.FragmentPagerAdapter: 0x1387b128
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]     in call to AllocObject
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]     from void md5e2e10ada8bfaef83197182f75a6fded2.MainActivity.n_onCreate(android.os.Bundle)
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504] "main" prio=5 tid=1 Runnable
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   | group="main" sCount=0 dsCount=0 flags=0 obj=0x73eb6568 self=0xb565a000
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   | sysTid=13626 nice=-10 cgrp=default sched=0/0 handle=0xb59ce518
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   | state=R schedstat=( 2031211479 26980181 463 ) utm=198 stm=5 core=0 HZ=100
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   | stack=0xbf2d5000-0xbf2d7000 stackSize=8MB
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   | held mutexes= "mutator lock"(shared held)
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   native: #00 pc 0047395b  /system/lib/libart.so (_ZN3art15DumpNativeStackERNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEiP12BacktraceMapPKcPNS_9ArtMethodEPv+203)
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   native: #01 pc 0056f45e  /system/lib/libart.so (_ZNK3art6Thread9DumpStackERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEbP12BacktraceMapb+366)
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   native: #02 pc 00569ce3  /system/lib/libart.so (_ZNK3art6Thread4DumpERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEbP12BacktraceMapb+83)
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   native: #03 pc 0038661e  /system/lib/libart.so (_ZN3art9JavaVMExt8JniAbortEPKcS2_+1374)
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   native: #04 pc 00386ba1  /system/lib/libart.so (_ZN3art9JavaVMExt9JniAbortVEPKcS2_Pc+113)
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   native: #05 pc 0014ec45  /system/lib/libart.so (_ZN3art11ScopedCheck6AbortFEPKcz+69)
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   native: #06 pc 00150a64  /system/lib/libart.so (_ZN3art11ScopedCheck25CheckInstantiableNonArrayERNS_18ScopedObjectAccessEP7_jclass+164)
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   native: #07 pc 00138c89  /system/lib/libart.so (_ZN3art8CheckJNI11AllocObjectEP7_JNIEnvP7_jclass+1017)
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   native: #08 pc 00008cb2  /data/app/com.companyname.DependencyTest-Pi6YpgzEKyouJr4WEev5iQ==/lib/x86/libmonodroid.so (java_interop_jnienv_alloc_object+50)
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   native: #09 pc 00000b3b   (???)
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   at md5e2e10ada8bfaef83197182f75a6fded2.MainActivity.n_onCreate(Native method)
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   at md5e2e10ada8bfaef83197182f75a6fded2.MainActivity.onCreate(MainActivity.java:29)
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   at android.app.Activity.performCreate(Activity.java:6975)
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1213)
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2770)
+01-25 11:46:32.649 F/zygote  (13626): java_vm_ext.cc:504]   at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2892)
+01-25 11:46:32.650 F/zygote  (13626): java_vm_ext.cc:504]   at android.app.ActivityThread.-wrap11(ActivityThread.java:-1)
+01-25 11:46:32.650 F/zygote  (13626): java_vm_ext.cc:504]   at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1593)
+01-25 11:46:32.650 F/zygote  (13626): java_vm_ext.cc:504]   at android.os.Handler.dispatchMessage(Handler.java:105)
+01-25 11:46:32.650 F/zygote  (13626): java_vm_ext.cc:504]   at android.os.Looper.loop(Looper.java:164)
+01-25 11:46:32.650 F/zygote  (13626): java_vm_ext.cc:504]   at android.app.ActivityThread.main(ActivityThread.java:6541)
+01-25 11:46:32.650 F/zygote  (13626): java_vm_ext.cc:504]   at java.lang.reflect.Method.invoke(Native method)
+01-25 11:46:32.650 F/zygote  (13626): java_vm_ext.cc:504]   at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+01-25 11:46:32.650 F/zygote  (13626): java_vm_ext.cc:504]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+01-25 11:46:32.650 F/zygote  (13626): java_vm_ext.cc:504] 
+01-25 11:46:32.667 F/zygote  (13626): runtime.cc:492] Runtime aborting...
+01-25 11:46:32.667 F/zygote  (13626): runtime.cc:492] Aborting thread:
+01-25 11:46:32.667 F/zygote  (13626): runtime.cc:492] "main" prio=10 tid=1 Native
+01-25 11:46:32.667 F/zygote  (13626): runtime.cc:492]   | group="" sCount=0 dsCount=0 flags=0 obj=0x73eb6568 self=0xb565a000
+01-25 11:46:32.667 F/zygote  (13626): runtime.cc:492]   | sysTid=13626 nice=-10 cgrp=default sched=0/0 handle=0xb59ce518
+01-25 11:46:32.667 F/zygote  (13626): runtime.cc:492]   | state=R schedstat=( 2031211479 26980181 463 ) utm=198 stm=5 core=0 HZ=100
+01-25 11:46:32.667 F/zygote  (13626): runtime.cc:492]   | stack=0xbf2d5000-0xbf2d7000 stackSize=8MB
+01-25 11:46:32.667 F/zygote  (13626): runtime.cc:492]   | held mutexes= "abort lock"
+01-25 11:46:32.667 F/zygote  (13626): runtime.cc:492]   native: #00 pc 0047395b  /system/lib/libart.so (_ZN3art15DumpNativeStackERNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEiP12BacktraceMapPKcPNS_9ArtMethodEPv+203)
+01-25 11:46:32.667 F/zygote  (13626): runtime.cc:492]   native: #01 pc 0056f45e  /system/lib/libart.so (_ZNK3art6Thread9DumpStackERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEbP12BacktraceMapb+366)
+01-25 11:46:32.667 F/zygote  (13626): runtime.cc:492]   native: #02 pc 00569ce3  /system/lib/libart.so (_ZNK3art6Thread4DumpERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEbP12BacktraceMapb+83)
+01-25 11:46:32.667 F/zygote  (13626): runtime.cc:492]   native: #03 pc 0054e5f7  /system/lib/libart.so (_ZNK3art10AbortState10DumpThreadERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEPNS_6ThreadE+55)
+01-25 11:46:32.667 F/zygote  (13626): runtime.cc:492]   native: #04 pc 0054e3fb  /system/lib/libart.so (_ZNK3art10AbortState4DumpERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEE+571)
+01-25 11:46:32.667 F/zygote  (13626): runtime.cc:492]   native: #05 pc 0053baad  /system/lib/libart.so (_ZN3art7Runtime5AbortEPKc+189)
+01-25 11:46:32.667 F/zygote  (13626): runtime.cc:492]   native: #06 pc 0053c569  /system/lib/libart.so (_ZN3art7Runtime7AborterEPKc+41)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #07 pc 0011c3d3  /system/lib/libart.so (_ZNSt3__110__function6__funcIPFvPKcENS_9allocatorIS5_EES4_EclEOS3_+35)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #08 pc 0065156a  /system/lib/libart.so (_ZN7android4base10LogMessageD1Ev+1034)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #09 pc 00386922  /system/lib/libart.so (_ZN3art9JavaVMExt8JniAbortEPKcS2_+2146)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #10 pc 00386ba1  /system/lib/libart.so (_ZN3art9JavaVMExt9JniAbortVEPKcS2_Pc+113)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #11 pc 0014ec45  /system/lib/libart.so (_ZN3art11ScopedCheck6AbortFEPKcz+69)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #12 pc 00150a64  /system/lib/libart.so (_ZN3art11ScopedCheck25CheckInstantiableNonArrayERNS_18ScopedObjectAccessEP7_jclass+164)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #13 pc 00138c89  /system/lib/libart.so (_ZN3art8CheckJNI11AllocObjectEP7_JNIEnvP7_jclass+1017)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #14 pc 00008cb2  /data/app/com.companyname.DependencyTest-Pi6YpgzEKyouJr4WEev5iQ==/lib/x86/libmonodroid.so (java_interop_jnienv_alloc_object+50)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #15 pc 00000b3b   (???)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   at md5e2e10ada8bfaef83197182f75a6fded2.MainActivity.n_onCreate(Native method)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   at md5e2e10ada8bfaef83197182f75a6fded2.MainActivity.onCreate(MainActivity.java:29)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   at android.app.Activity.performCreate(Activity.java:6975)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1213)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2770)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2892)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   at android.app.ActivityThread.-wrap11(ActivityThread.java:-1)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1593)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   at android.os.Handler.dispatchMessage(Handler.java:105)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   at android.os.Looper.loop(Looper.java:164)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   at android.app.ActivityThread.main(ActivityThread.java:6541)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   at java.lang.reflect.Method.invoke(Native method)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492] Dumping all threads without appropriate locks held: thread list lock mutator lock
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492] All threads:
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492] DALVIK THREADS (13):
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492] "main" prio=10 tid=1 Runnable
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   | group="" sCount=0 dsCount=0 flags=0 obj=0x73eb6568 self=0xb565a000
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   | sysTid=13626 nice=-10 cgrp=default sched=0/0 handle=0xb59ce518
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   | state=R schedstat=( 2040945954 27266542 465 ) utm=198 stm=6 core=0 HZ=100
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   | stack=0xbf2d5000-0xbf2d7000 stackSize=8MB
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   | held mutexes= "abort lock" "mutator lock"(shared held)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #00 pc 0047395b  /system/lib/libart.so (_ZN3art15DumpNativeStackERNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEiP12BacktraceMapPKcPNS_9ArtMethodEPv+203)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #01 pc 0056f45e  /system/lib/libart.so (_ZNK3art6Thread9DumpStackERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEbP12BacktraceMapb+366)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #02 pc 00569ce3  /system/lib/libart.so (_ZNK3art6Thread4DumpERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEbP12BacktraceMapb+83)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #03 pc 0058c47a  /system/lib/libart.so (_ZN3art14DumpCheckpoint3RunEPNS_6ThreadE+1210)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #04 pc 00582ada  /system/lib/libart.so (_ZN3art10ThreadList13RunCheckpointEPNS_7ClosureES2_+570)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #05 pc 005823de  /system/lib/libart.so (_ZN3art10ThreadList4DumpERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEb+958)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #06 pc 0054e803  /system/lib/libart.so (_ZNK3art10AbortState14DumpAllThreadsERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEPNS_6ThreadE+355)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #07 pc 0054e3bc  /system/lib/libart.so (_ZNK3art10AbortState4DumpERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEE+508)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #08 pc 0053baad  /system/lib/libart.so (_ZN3art7Runtime5AbortEPKc+189)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #09 pc 0053c569  /system/lib/libart.so (_ZN3art7Runtime7AborterEPKc+41)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #10 pc 0011c3d3  /system/lib/libart.so (_ZNSt3__110__function6__funcIPFvPKcENS_9allocatorIS5_EES4_EclEOS3_+35)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #11 pc 0065156a  /system/lib/libart.so (_ZN7android4base10LogMessageD1Ev+1034)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #12 pc 00386922  /system/lib/libart.so (_ZN3art9JavaVMExt8JniAbortEPKcS2_+2146)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #13 pc 00386ba1  /system/lib/libart.so (_ZN3art9JavaVMExt9JniAbortVEPKcS2_Pc+113)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #14 pc 0014ec45  /system/lib/libart.so (_ZN3art11ScopedCheck6AbortFEPKcz+69)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #15 pc 00150a64  /system/lib/libart.so (_ZN3art11ScopedCheck25CheckInstantiableNonArrayERNS_18ScopedObjectAccessEP7_jclass+164)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #16 pc 00138c89  /system/lib/libart.so (_ZN3art8CheckJNI11AllocObjectEP7_JNIEnvP7_jclass+1017)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #17 pc 00008cb2  /data/app/com.companyname.DependencyTest-Pi6YpgzEKyouJr4WEev5iQ==/lib/x86/libmonodroid.so (java_interop_jnienv_alloc_object+50)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   native: #18 pc 00000b3b   (???)
+01-25 11:46:32.668 F/zygote  (13626): runtime.cc:492]   at md5e2e10ada8bfaef83197182f75a6fded2.MainActivity.n_onCreate(Native method)
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   at md5e2e10ada8bfaef83197182f75a6fded2.MainActivity.onCreate(MainActivity.java:29)
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   at android.app.Activity.performCreate(Activity.java:6975)
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1213)
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2770)
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2892)
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   at android.app.ActivityThread.-wrap11(ActivityThread.java:-1)
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1593)
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   at android.os.Handler.dispatchMessage(Handler.java:105)
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   at android.os.Looper.loop(Looper.java:164)
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   at android.app.ActivityThread.main(ActivityThread.java:6541)
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   at java.lang.reflect.Method.invoke(Native method)
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492] 
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492] "Jit thread pool worker thread 0" prio=10 tid=2 Native
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13600030 self=0xa7d89000
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   | sysTid=13631 nice=9 cgrp=default sched=0/0 handle=0xa7f5c970
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   | state=S schedstat=( 3109191 514313 13 ) utm=0 stm=0 core=3 HZ=100
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   | stack=0xa7e5e000-0xa7e60000 stackSize=1022KB
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   | held mutexes=
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   kernel: futex_wait_queue_me+0xd0/0x116
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   kernel: futex_wait+0xe6/0x1e0
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   kernel: do_futex+0x9b/0x70c
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   kernel: SyS_futex+0xaf/0xf6
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   kernel: syscall_after_call+0x0/0x4
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   native: #00 pc 00000ac2  [vdso] (__kernel_vsyscall+14)
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   native: #01 pc 0001ef88  /system/lib/libc.so (syscall+40)
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   native: #02 pc 0011e66b  /system/lib/libart.so (_ZN3art17ConditionVariable16WaitHoldingLocksEPNS_6ThreadE+139)
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   native: #03 pc 0011e5d3  /system/lib/libart.so (_ZN3art17ConditionVariable4WaitEPNS_6ThreadE+35)
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   native: #04 pc 0058e3aa  /system/lib/libart.so (_ZN3art10ThreadPool7GetTaskEPNS_6ThreadE+266)
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   native: #05 pc 0058d7d5  /system/lib/libart.so (_ZN3art16ThreadPoolWorker3RunEv+117)
+01-25 11:46:32.669 F/zygote  (13626): runtime.cc:492]   native: #06 pc 0058d0d2  /system/lib/libart.so (_ZN3art16ThreadPoolWorker8CallbackEPv+146)
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   native: #07 pc 000709b5  /system/lib/libc.so (_ZL15__pthread_startPv+53)
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   native: #08 pc 0002050b  /system/lib/libc.so (__start_thread+75)
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   native: #09 pc 0001eda6  /system/lib/libc.so (__bionic_clone+70)
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   (no managed stack frames)
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492] 
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492] "Signal Catcher" prio=10 tid=3 WaitingInMainSignalCatcherLoop
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13640020 self=0xb565ac00
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   | sysTid=13632 nice=0 cgrp=default sched=0/0 handle=0xa7d7f970
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   | state=S schedstat=( 85671 138446 2 ) utm=0 stm=0 core=3 HZ=100
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   | stack=0xa7c85000-0xa7c87000 stackSize=1006KB
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   | held mutexes=
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   kernel: do_sigtimedwait+0xd7/0x19f
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   kernel: SyS_rt_sigtimedwait+0x6d/0x9c
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   kernel: syscall_after_call+0x0/0x4
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   native: #00 pc 00000ac4  [vdso] (__kernel_vsyscall+16)
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   native: #01 pc 00073991  /system/lib/libc.so (__rt_sigtimedwait+33)
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   native: #02 pc 0002c05b  /system/lib/libc.so (sigwait+75)
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   native: #03 pc 00557e99  /system/lib/libart.so (_ZN3art9SignalSet4WaitEv+57)
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   native: #04 pc 00557853  /system/lib/libart.so (_ZN3art13SignalCatcher13WaitForSignalEPNS_6ThreadERNS_9SignalSetE+227)
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   native: #05 pc 00555daf  /system/lib/libart.so (_ZN3art13SignalCatcher3RunEPv+303)
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   native: #06 pc 000709b5  /system/lib/libc.so (_ZL15__pthread_startPv+53)
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   native: #07 pc 0002050b  /system/lib/libc.so (__start_thread+75)
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   native: #08 pc 0001eda6  /system/lib/libc.so (__bionic_clone+70)
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   (no managed stack frames)
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492] 
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492] "JDWP" prio=10 tid=4 WaitingInMainDebuggerLoop
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13680018 self=0xa7d8cc00
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   | sysTid=13633 nice=0 cgrp=default sched=0/0 handle=0x98f1f970
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   | state=S schedstat=( 2137651 3382285 8 ) utm=0 stm=0 core=2 HZ=100
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   | stack=0x98e25000-0x98e27000 stackSize=1006KB
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   | held mutexes=
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   kernel: poll_schedule_timeout+0x2e/0x4b
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   kernel: do_select+0x583/0x5c2
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   kernel: core_sys_select+0x191/0x2b0
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   kernel: SyS_pselect6+0xec/0x16a
+01-25 11:46:32.670 F/zygote  (13626): runtime.cc:492]   kernel: syscall_after_call+0x0/0x4
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   native: #00 pc 00000ac4  [vdso] (__kernel_vsyscall+16)
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   native: #01 pc 0007379b  /system/lib/libc.so (__pselect6+43)
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   native: #02 pc 00029cf4  /system/lib/libc.so (select+132)
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   native: #03 pc 00641aeb  /system/lib/libart.so (_ZN3art4JDWP12JdwpAdbState15ProcessIncomingEv+427)
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   native: #04 pc 003a01cb  /system/lib/libart.so (_ZN3art4JDWP9JdwpState3RunEv+2219)
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   native: #05 pc 0039efc0  /system/lib/libart.so (_ZN3art4JDWPL15StartJdwpThreadEPv+48)
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   native: #06 pc 000709b5  /system/lib/libc.so (_ZL15__pthread_startPv+53)
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   native: #07 pc 0002050b  /system/lib/libc.so (__start_thread+75)
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   native: #08 pc 0001eda6  /system/lib/libc.so (__bionic_clone+70)
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   (no managed stack frames)
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492] 
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492] "Binder:13626_1" prio=10 tid=5 Native
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   | group="" sCount=1 dsCount=0 flags=1 obj=0x136c0020 self=0xa567d800
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   | sysTid=13638 nice=0 cgrp=default sched=0/0 handle=0x98910970
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   | state=S schedstat=( 3109332 2616961 13 ) utm=0 stm=0 core=1 HZ=100
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   | stack=0x98816000-0x98818000 stackSize=1006KB
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   | held mutexes=
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   kernel: binder_thread_read+0x2a2/0xbb8
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   kernel: binder_ioctl+0x2d5/0x676
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   kernel: do_vfs_ioctl+0x368/0x40f
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   kernel: SyS_ioctl+0x43/0x64
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   kernel: syscall_after_call+0x0/0x4
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   native: #00 pc 00000ac2  [vdso] (__kernel_vsyscall+14)
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   native: #01 pc 000735cc  /system/lib/libc.so (__ioctl+28)
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   native: #02 pc 00025d61  /system/lib/libc.so (ioctl+65)
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   native: #03 pc 00053567  /system/lib/libbinder.so (_ZN7android14IPCThreadState14talkWithDriverEb+263)
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   native: #04 pc 000536fa  /system/lib/libbinder.so (_ZN7android14IPCThreadState20getAndExecuteCommandEv+42)
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   native: #05 pc 00053ed1  /system/lib/libbinder.so (_ZN7android14IPCThreadState14joinThreadPoolEb+81)
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   native: #06 pc 0007e9f9  /system/lib/libbinder.so (_ZN7android10PoolThread10threadLoopEv+41)
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   native: #07 pc 000104a4  /system/lib/libutils.so (_ZN7android6Thread11_threadLoopEPv+292)
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   native: #08 pc 000841b6  /system/lib/libandroid_runtime.so (_ZN7android14AndroidRuntime15javaThreadShellEPv+166)
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   native: #09 pc 0000fca6  /system/lib/libutils.so (_ZN13thread_data_t10trampolineEPKS_+246)
+01-25 11:46:32.671 F/zygote  (13626): runtime.cc:492]   native: #10 pc 000709b5  /system/lib/libc.so (_ZL15__pthread_startPv+53)
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   native: #11 pc 0002050b  /system/lib/libc.so (__start_thread+75)
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   native: #12 pc 0001eda6  /system/lib/libc.so (__bionic_clone+70)
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   (no managed stack frames)
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492] 
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492] "HeapTaskDaemon" prio=10 tid=6 Blocked
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   | group="" sCount=1 dsCount=0 flags=1 obj=0x12c4c8f8 self=0xa5290a00
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   | sysTid=13637 nice=4 cgrp=default sched=0/0 handle=0x98b13970
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   | state=S schedstat=( 155257 2045045 4 ) utm=0 stm=0 core=1 HZ=100
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   | stack=0x98a11000-0x98a13000 stackSize=1038KB
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   | held mutexes=
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   kernel: futex_wait_queue_me+0xd0/0x116
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   kernel: futex_wait+0xe6/0x1e0
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   kernel: do_futex+0x9b/0x70c
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   kernel: SyS_futex+0xaf/0xf6
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   kernel: syscall_after_call+0x0/0x4
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   native: #00 pc 00000ac2  [vdso] (__kernel_vsyscall+14)
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   native: #01 pc 0001ef88  /system/lib/libc.so (syscall+40)
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   native: #02 pc 0011e66b  /system/lib/libart.so (_ZN3art17ConditionVariable16WaitHoldingLocksEPNS_6ThreadE+139)
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   native: #03 pc 0011e5d3  /system/lib/libart.so (_ZN3art17ConditionVariable4WaitEPNS_6ThreadE+35)
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   native: #04 pc 002d3cdf  /system/lib/libart.so (_ZN3art2gc13TaskProcessor7GetTaskEPNS_6ThreadE+367)
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   native: #05 pc 002d4772  /system/lib/libart.so (_ZN3art2gc13TaskProcessor11RunAllTasksEPNS_6ThreadE+82)
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   native: #06 pc 00480f37  /system/lib/libart.so (_ZN3artL22VMRuntime_runHeapTasksEP7_JNIEnvP8_jobject+55)
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   native: #07 pc 0020c2c8  /system/framework/x86/boot-core-libart.oat (Java_dalvik_system_VMRuntime_runHeapTasks__+104)
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   at dalvik.system.VMRuntime.runHeapTasks(Native method)
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   - waiting to lock an unknown object
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   at java.lang.Daemons$HeapTaskDaemon.runInternal(Daemons.java:461)
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   at java.lang.Daemons$Daemon.run(Daemons.java:103)
+01-25 11:46:32.672 F/zygote  (13626): runtime.cc:492]   at java.lang.Thread.run(Thread.java:764)
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492] 
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492] "FinalizerWatchdogDaemon" prio=10 tid=7 Waiting
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   | group="" sCount=1 dsCount=0 flags=1 obj=0x12c4c858 self=0xb1291400
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   | sysTid=13636 nice=4 cgrp=default sched=0/0 handle=0x98c18970
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   | state=S schedstat=( 81724 2261523 4 ) utm=0 stm=0 core=1 HZ=100
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   | stack=0x98b16000-0x98b18000 stackSize=1038KB
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   | held mutexes=
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   kernel: futex_wait_queue_me+0xd0/0x116
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   kernel: futex_wait+0xe6/0x1e0
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   kernel: do_futex+0x9b/0x70c
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   kernel: SyS_futex+0xaf/0xf6
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   kernel: syscall_after_call+0x0/0x4
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   native: #00 pc 00000ac2  [vdso] (__kernel_vsyscall+14)
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   native: #01 pc 0001ef88  /system/lib/libc.so (syscall+40)
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   native: #02 pc 0011e66b  /system/lib/libart.so (_ZN3art17ConditionVariable16WaitHoldingLocksEPNS_6ThreadE+139)
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   native: #03 pc 0011e5d3  /system/lib/libart.so (_ZN3art17ConditionVariable4WaitEPNS_6ThreadE+35)
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   native: #04 pc 0046dc45  /system/lib/libart.so (_ZN3art7Monitor4WaitEPNS_6ThreadExibNS_11ThreadStateE+661)
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   native: #05 pc 0046fad4  /system/lib/libart.so (_ZN3art7Monitor4WaitEPNS_6ThreadEPNS_6mirror6ObjectExibNS_11ThreadStateE+196)
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   native: #06 pc 0048aaf3  /system/lib/libart.so (_ZN3artL11Object_waitEP7_JNIEnvP8_jobject+83)
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   native: #07 pc 000006a8  /system/framework/x86/boot.oat (Java_java_lang_Object_wait__+104)
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   at java.lang.Object.wait(Native method)
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   - waiting on <0x0af1b864> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   at java.lang.Daemons$FinalizerWatchdogDaemon.sleepUntilNeeded(Daemons.java:297)
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   - locked <0x0af1b864> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   at java.lang.Daemons$FinalizerWatchdogDaemon.runInternal(Daemons.java:277)
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   at java.lang.Daemons$Daemon.run(Daemons.java:103)
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   at java.lang.Thread.run(Thread.java:764)
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492] 
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492] "FinalizerDaemon" prio=10 tid=8 Waiting
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   | group="" sCount=1 dsCount=0 flags=1 obj=0x12c4c7b8 self=0xb1290e00
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   | sysTid=13635 nice=4 cgrp=default sched=0/0 handle=0x98d1d970
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   | state=S schedstat=( 386018 2908652 5 ) utm=0 stm=0 core=0 HZ=100
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   | stack=0x98c1b000-0x98c1d000 stackSize=1038KB
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   | held mutexes=
+01-25 11:46:32.673 F/zygote  (13626): runtime.cc:492]   kernel: futex_wait_queue_me+0xd0/0x116
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   kernel: futex_wait+0xe6/0x1e0
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   kernel: do_futex+0x9b/0x70c
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   kernel: SyS_futex+0xaf/0xf6
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   kernel: syscall_after_call+0x0/0x4
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   native: #00 pc 00000ac2  [vdso] (__kernel_vsyscall+14)
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   native: #01 pc 0001ef88  /system/lib/libc.so (syscall+40)
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   native: #02 pc 0011e66b  /system/lib/libart.so (_ZN3art17ConditionVariable16WaitHoldingLocksEPNS_6ThreadE+139)
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   native: #03 pc 0011e5d3  /system/lib/libart.so (_ZN3art17ConditionVariable4WaitEPNS_6ThreadE+35)
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   native: #04 pc 0046dc45  /system/lib/libart.so (_ZN3art7Monitor4WaitEPNS_6ThreadExibNS_11ThreadStateE+661)
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   native: #05 pc 0046fad4  /system/lib/libart.so (_ZN3art7Monitor4WaitEPNS_6ThreadEPNS_6mirror6ObjectExibNS_11ThreadStateE+196)
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   native: #06 pc 0048ab67  /system/lib/libart.so (_ZN3artL13Object_waitJIEP7_JNIEnvP8_jobjectxi+87)
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   native: #07 pc 00000a58  /system/framework/x86/boot.oat (Java_java_lang_Object_wait__JI+136)
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   at java.lang.Object.wait(Native method)
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   - waiting on <0x00722acd> (a java.lang.Object)
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   at java.lang.Object.wait(Object.java:422)
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:188)
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   - locked <0x00722acd> (a java.lang.Object)
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:209)
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:232)
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   at java.lang.Daemons$Daemon.run(Daemons.java:103)
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   at java.lang.Thread.run(Thread.java:764)
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492] 
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492] "ReferenceQueueDaemon" prio=10 tid=9 Waiting
+01-25 11:46:32.674 F/zygote  (13626): runtime.cc:492]   | group="" sCount=1 dsCount=0 flags=1 obj=0x12c4c718 self=0xb1290800
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   | sysTid=13634 nice=4 cgrp=default sched=0/0 handle=0x98e22970
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   | state=S schedstat=( 155723 2504232 5 ) utm=0 stm=0 core=1 HZ=100
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   | stack=0x98d20000-0x98d22000 stackSize=1038KB
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   | held mutexes=
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   kernel: futex_wait_queue_me+0xd0/0x116
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   kernel: futex_wait+0xe6/0x1e0
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   kernel: do_futex+0x9b/0x70c
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   kernel: SyS_futex+0xaf/0xf6
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   kernel: syscall_after_call+0x0/0x4
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   native: #00 pc 00000ac2  [vdso] (__kernel_vsyscall+14)
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   native: #01 pc 0001ef88  /system/lib/libc.so (syscall+40)
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   native: #02 pc 0011e66b  /system/lib/libart.so (_ZN3art17ConditionVariable16WaitHoldingLocksEPNS_6ThreadE+139)
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   native: #03 pc 0011e5d3  /system/lib/libart.so (_ZN3art17ConditionVariable4WaitEPNS_6ThreadE+35)
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   native: #04 pc 0046dc45  /system/lib/libart.so (_ZN3art7Monitor4WaitEPNS_6ThreadExibNS_11ThreadStateE+661)
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   native: #05 pc 0046fad4  /system/lib/libart.so (_ZN3art7Monitor4WaitEPNS_6ThreadEPNS_6mirror6ObjectExibNS_11ThreadStateE+196)
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   native: #06 pc 0048aaf3  /system/lib/libart.so (_ZN3artL11Object_waitEP7_JNIEnvP8_jobject+83)
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   native: #07 pc 000006a8  /system/framework/x86/boot.oat (Java_java_lang_Object_wait__+104)
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   at java.lang.Object.wait(Native method)
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   - waiting on <0x0134df82> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   at java.lang.Daemons$ReferenceQueueDaemon.runInternal(Daemons.java:178)
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   - locked <0x0134df82> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   at java.lang.Daemons$Daemon.run(Daemons.java:103)
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   at java.lang.Thread.run(Thread.java:764)
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492] 
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492] "Binder:13626_2" prio=10 tid=10 Native
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13700020 self=0xa7d9c800
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   | sysTid=13639 nice=0 cgrp=default sched=0/0 handle=0x98813970
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   | state=S schedstat=( 588776 66202 3 ) utm=0 stm=0 core=1 HZ=100
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   | stack=0x98719000-0x9871b000 stackSize=1006KB
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   | held mutexes=
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   kernel: binder_thread_read+0x2a2/0xbb8
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   kernel: binder_ioctl+0x2d5/0x676
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   kernel: do_vfs_ioctl+0x368/0x40f
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   kernel: SyS_ioctl+0x43/0x64
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   kernel: syscall_after_call+0x0/0x4
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   native: #00 pc 00000ac2  [vdso] (__kernel_vsyscall+14)
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   native: #01 pc 000735cc  /system/lib/libc.so (__ioctl+28)
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   native: #02 pc 00025d61  /system/lib/libc.so (ioctl+65)
+01-25 11:46:32.675 F/zygote  (13626): runtime.cc:492]   native: #03 pc 00053567  /system/lib/libbinder.so (_ZN7android14IPCThreadState14talkWithDriverEb+263)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   native: #04 pc 000536fa  /system/lib/libbinder.so (_ZN7android14IPCThreadState20getAndExecuteCommandEv+42)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   native: #05 pc 00053ed1  /system/lib/libbinder.so (_ZN7android14IPCThreadState14joinThreadPoolEb+81)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   native: #06 pc 0007e9f9  /system/lib/libbinder.so (_ZN7android10PoolThread10threadLoopEv+41)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   native: #07 pc 000104a4  /system/lib/libutils.so (_ZN7android6Thread11_threadLoopEPv+292)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   native: #08 pc 000841b6  /system/lib/libandroid_runtime.so (_ZN7android14AndroidRuntime15javaThreadShellEPv+166)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   native: #09 pc 0000fca6  /system/lib/libutils.so (_ZN13thread_data_t10trampolineEPKS_+246)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   native: #10 pc 000709b5  /system/lib/libc.so (_ZL15__pthread_startPv+53)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   native: #11 pc 0002050b  /system/lib/libc.so (__start_thread+75)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   native: #12 pc 0001eda6  /system/lib/libc.so (__bionic_clone+70)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   (no managed stack frames)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492] 
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492] "Profile Saver" prio=10 tid=11 Native
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13740020 self=0xa5524400
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   | sysTid=13641 nice=9 cgrp=default sched=0/0 handle=0x982a6970
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   | state=S schedstat=( 1577972 1472058 4 ) utm=0 stm=0 core=1 HZ=100
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   | stack=0x981ac000-0x981ae000 stackSize=1006KB
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   | held mutexes=
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   kernel: futex_wait_queue_me+0xd0/0x116
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   kernel: futex_wait+0xe6/0x1e0
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   kernel: do_futex+0x9b/0x70c
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   kernel: SyS_futex+0xaf/0xf6
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   kernel: syscall_after_call+0x0/0x4
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   native: #00 pc 00000ac2  [vdso] (__kernel_vsyscall+14)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   native: #01 pc 0001ef88  /system/lib/libc.so (syscall+40)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   native: #02 pc 0011e66b  /system/lib/libart.so (_ZN3art17ConditionVariable16WaitHoldingLocksEPNS_6ThreadE+139)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   native: #03 pc 0011e5d3  /system/lib/libart.so (_ZN3art17ConditionVariable4WaitEPNS_6ThreadE+35)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   native: #04 pc 003c58ba  /system/lib/libart.so (_ZN3art12ProfileSaver3RunEv+474)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   native: #05 pc 003c841a  /system/lib/libart.so (_ZN3art12ProfileSaver21RunProfileSaverThreadEPv+106)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   native: #06 pc 000709b5  /system/lib/libc.so (_ZL15__pthread_startPv+53)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   native: #07 pc 0002050b  /system/lib/libc.so (__start_thread+75)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   native: #08 pc 0001eda6  /system/lib/libc.so (__bionic_clone+70)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   (no managed stack frames)
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492] 
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492] "Thread-2" prio=10 tid=12 Native
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   | group="" sCount=1 dsCount=0 flags=1 obj=0x137c0000 self=0xa7da0400
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   | sysTid=13650 nice=-10 cgrp=default sched=0/0 handle=0x93dc7970
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   | state=S schedstat=( 4336618 541567 103 ) utm=0 stm=0 core=1 HZ=100
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   | stack=0x93cc9000-0x93ccb000 stackSize=1022KB
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   | held mutexes=
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   kernel: futex_wait_queue_me+0xd0/0x116
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   kernel: futex_wait+0xe6/0x1e0
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   kernel: do_futex+0x9b/0x70c
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   kernel: SyS_futex+0xaf/0xf6
+01-25 11:46:32.676 F/zygote  (13626): runtime.cc:492]   kernel: syscall_after_call+0x0/0x4
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   native: #00 pc 00000ac2  [vdso] (__kernel_vsyscall+14)
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   native: #01 pc 0001ef88  /system/lib/libc.so (syscall+40)
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   native: #02 pc 0002b1ca  /system/lib/libc.so (sem_wait+106)
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   native: #03 pc 0022441f  /data/app/Mono.Android.DebugRuntime-76IaXjKR6MEeGtdeYI06NA==/lib/x86/libmonosgen-32bit-2.0.so (???)
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   (no managed stack frames)
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492] 
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492] "Thread-3" prio=10 tid=13 Native
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13800000 self=0xa529c200
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   | sysTid=13651 nice=-10 cgrp=default sched=0/0 handle=0x92fff970
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   | state=S schedstat=( 31692001 326378 286 ) utm=0 stm=3 core=1 HZ=100
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   | stack=0x92f01000-0x92f03000 stackSize=1022KB
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   | held mutexes=
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   kernel: sk_wait_data+0x63/0x9b
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   kernel: tcp_recvmsg+0x40d/0x8c8
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   kernel: inet_recvmsg+0x76/0x8b
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   kernel: sock_recvmsg+0x78/0x91
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   kernel: SyS_recvfrom+0x101/0x15b
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   kernel: SyS_socketcall+0x13f/0x1ff
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   kernel: syscall_after_call+0x0/0x4
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   native: #00 pc 00000ac2  [vdso] (__kernel_vsyscall+14)
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   native: #01 pc 00075089  /system/lib/libc.so (recvfrom+25)
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   native: #02 pc 0002ad2d  /system/lib/libc.so (recv+45)
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   native: #03 pc 00106283  /data/app/Mono.Android.DebugRuntime-76IaXjKR6MEeGtdeYI06NA==/lib/x86/libmonosgen-32bit-2.0.so (???)
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492]   (no managed stack frames)
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492] 
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:492] 
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:500] JNI DETECTED ERROR IN APPLICATION: can't make objects of type android.support.v4.app.FragmentPagerAdapter: 0x1387b128
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:500]     in call to AllocObject
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:500]     from void md5e2e10ada8bfaef83197182f75a6fded2.MainActivity.n_onCreate(android.os.Bundle)
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:500] "main" prio=5 tid=1 Runnable
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:500]   | group="main" sCount=0 dsCount=0 flags=0 obj=0x73eb6568 self=0xb565a000
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:500]   | sysTid=13626 nice=-10 cgrp=default sched=0/0 handle=0xb59ce518
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:500]   | state=R schedstat=( 2031211479 26980181 463 ) utm=198 stm=5 core=0 HZ=100
+01-25 11:46:32.677 F/zygote  (13626): runtime.cc:500]   | stack=0xbf2d5000-0xbf2d7000 stackSize=8MB
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   | held mutexes= "mutator lock"(shared held)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   native: #00 pc 0047395b  /system/lib/libart.so (_ZN3art15DumpNativeStackERNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEiP12BacktraceMapPKcPNS_9ArtMethodEPv+203)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   native: #01 pc 0056f45e  /system/lib/libart.so (_ZNK3art6Thread9DumpStackERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEbP12BacktraceMapb+366)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   native: #02 pc 00569ce3  /system/lib/libart.so (_ZNK3art6Thread4DumpERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEbP12BacktraceMapb+83)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   native: #03 pc 0038661e  /system/lib/libart.so (_ZN3art9JavaVMExt8JniAbortEPKcS2_+1374)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   native: #04 pc 00386ba1  /system/lib/libart.so (_ZN3art9JavaVMExt9JniAbortVEPKcS2_Pc+113)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   native: #05 pc 0014ec45  /system/lib/libart.so (_ZN3art11ScopedCheck6AbortFEPKcz+69)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   native: #06 pc 00150a64  /system/lib/libart.so (_ZN3art11ScopedCheck25CheckInstantiableNonArrayERNS_18ScopedObjectAccessEP7_jclass+164)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   native: #07 pc 00138c89  /system/lib/libart.so (_ZN3art8CheckJNI11AllocObjectEP7_JNIEnvP7_jclass+1017)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   native: #08 pc 00008cb2  /data/app/com.companyname.DependencyTest-Pi6YpgzEKyouJr4WEev5iQ==/lib/x86/libmonodroid.so (java_interop_jnienv_alloc_object+50)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   native: #09 pc 00000b3b   (???)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   at md5e2e10ada8bfaef83197182f75a6fded2.MainActivity.n_onCreate(Native method)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   at md5e2e10ada8bfaef83197182f75a6fded2.MainActivity.onCreate(MainActivity.java:29)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   at android.app.Activity.performCreate(Activity.java:6975)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1213)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2770)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2892)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   at android.app.ActivityThread.-wrap11(ActivityThread.java:-1)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1593)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   at android.os.Handler.dispatchMessage(Handler.java:105)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   at android.os.Looper.loop(Looper.java:164)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   at android.app.ActivityThread.main(ActivityThread.java:6541)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   at java.lang.reflect.Method.invoke(Native method)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+01-25 11:46:32.678 F/zygote  (13626): runtime.cc:500] 
+01-25 11:46:32.678 F/libc    (13626): Fatal signal 6 (SIGABRT), code -6 in tid 13626 (.DependencyTest)
